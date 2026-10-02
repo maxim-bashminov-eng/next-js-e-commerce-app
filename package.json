@@ -1,0 +1,54 @@
+{
+          "name": "first-fullstack-app",
+          "version": "0.1.0",
+          "private": true,
+          "scripts": {
+                    "dev": "next dev",
+                    "build": "next build",
+                    "start": "next start",
+                    "lint": "eslint"
+          },
+          "dependencies": {
+                    "@base-ui/react": "^1.8.0",
+                    "@prisma/adapter-better-sqlite3": "^7.10.0",
+                    "@prisma/client": "^7.10.0",
+                    "@radix-ui/react-dropdown-menu": "^2.1.24",
+                    "@stripe/react-stripe-js": "^7.0.0",
+                    "@stripe/stripe-js": "^10.0.0",
+                    "@tailwindcss/vite": "^4.3.3",
+                    "add": "^2.0.9",
+                    "better-sqlite3": "^13.0.3",
+                    "card": "^2.5.4",
+                    "class-variance-authority": "^0.7.1",
+                    "cn": "^0.4.0",
+                    "lucide-react": "^1.49.0",
+                    "next": "16.3.7",
+                    "react": "19.2.8",
+                    "react-dom": "19.2.8",
+                    "shadcn": "^4.21.0",
+                    "stripe": "^23.0.0",
+                    "tw-animate-css": "^1.4.0",
+                    "zod": "^4.6.5"
+          },
+          "devDependencies": {
+                    "@tailwindcss/postcss": "^4",
+                    "@types/better-sqlite3": "^9.6.0",
+                    "@types/node": "^20",
+                    "@types/react": "^19",
+                    "@types/react-dom": "^19",
+                    "autoprefixer": "^10.6.1",
+                    "eslint": "^9",
+                    "eslint-config-next": "16.3.7",
+                    "postcss": "^8.5.28",
+                    "prisma": "^7.10.0",
+                    "tailwindcss": "^4.3.3",
+                    "ts-node": "^10.9.2",
+                    "typescript": "^5"
+          },
+          "allowScripts": {
+                    "autoprefixer@10.6.1": true,
+                    "postcss@8.5.23": true,
+                    "postcss@8.5.28": true,
+                    "ts-node@10.9.2": true
+          }
+}
